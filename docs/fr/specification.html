@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="fr"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Spécification · All Contributors</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Un exemple de comment utiliser le tableau technique de all-contributors peut reconnaître tous les contributeurs&lt;/p&gt;
+"/><meta name="docsearch:language" content="fr"/><meta property="og:title" content="Spécification · All Contributors"/><meta property="og:type" content="website"/><meta property="og:url" content="https://allcontributors.org/index.html"/><meta property="og:description" content="&lt;p&gt;Un exemple de comment utiliser le tableau technique de all-contributors peut reconnaître tous les contributeurs&lt;/p&gt;
+"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/icons/favicon-32x32.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-131821931-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/fr"><img class="logo" src="/img/icons/logo-square-transparent.png" alt="All Contributors"/><h2 class="headerTitleWithLogo">All Contributors</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/fr/overview" target="_self">Documentations</a></li><li class=""><a href="https://github.com/all-contributors/all-contributors" target="_self">GitHub</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg" alt="Languages icon"/>Français</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docs/en/specification">English</a></li><li><a href="/docs/es-ES/specification">Español</a></li><li><a href="/docs/id/specification">Bahasa Indonesia</a></li><li><a href="/docs/ko/specification">한국어</a></li><li><a href="/docs/pt-BR/specification">Português (Brasil)</a></li><li><a href="/docs/zh-CN/specification">中文</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Spécification</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Spécification</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/fr/overview">Aperçu</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/fr/specification">Spécification</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/emoji-key">Clé d&#x27;Emoji ✨</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/repository-maintainers">Maintainers du répertoire</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/tooling">Outillage</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Bot @all-contributors 🤖</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/fr/bot/overview">Aperçu</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/bot/installation">Installation</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/bot/usage">Utilisation</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/bot/configuration">Configuration</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Invité de Commande</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/fr/cli/overview">Aperçu</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/cli/installation">Installation</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/cli/usage">Utilisation</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/cli/configuration">Configuration</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Projet</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/fr/project/contribute">Aidez-nous à nous améliorer</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/project/code-of-conduct">Code de Conduite</a></li><li class="navListItem"><a class="navItem" href="/docs/fr/project/implementations">Qui l&#x27;utilise?</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/all-contributors/all-contributors/tree/master/docs/specification.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Spécification</h1></header><article><div><span><p>Un exemple de comment utiliser le tableau technique de all-contributors peut reconnaître tous les contributeurs</p>
+<div align="center">
+    <img src="../assets/contributors-table-small.png" alt="Capture d’écran de Table de contributeurs" width="800px" />
+</div>
+<h2><a class="anchor" aria-hidden="true" id="obligatoire"></a><a href="#obligatoire" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obligatoire</h2>
+<p>Les projets open source devraient comprendre les éléments obligatoires suivants afin de supporter la spécification de All Contributors:</p>
+<ol>
+<li>Une section &quot;Contributeurs&quot; dans un site bien en vue de la documentation du répertoire du projet qui comprend une liste de tous les contributeurs du projet
+<ul>
+<li>Le but devrait être d'utiliser le site le plus en vue de la documentation du projet quand cela est faisable. Dans de nombreux cas, il s'agit du fichier README du projet</li>
+<li>Envisager l'utilisation d'un fichier CONTRIBUTEURS au niveau supérieur du répertoire lorsque le nombre de contributeurs dépasse un niveau auquel il n'est pas possible d'utiliser le fichier README pour reconnaître les contributions. Dans ce cas, un lien proéminent vers le fichier CONTRIBUTEURS devrait être inclus sur la page README sous la rubrique &quot;Contributeurs&quot;</li>
+</ul></li>
+<li>Les listes devraient être formatées sous forme de tableau contenant les informations suivants sur les contributeurs du projet:
+<ul>
+<li>Nom</li>
+<li>Lien URL vers un site où l'on peut en apprendre davantage sur le contributeur. Cette URL peut être déterminée par le contributeur à la discrétion du projet.</li>
+<li>Une indication de la catégorie de contribution en format de texte ou d'icône à l'aide des catégories de contribution et/ou des catégories de contribution définies en images emoji (voir ci-dessous).</li>
+<li>Un lien vers la catégorie de contribution en format de texte ou d'emoji en utilisant les catégories de contribution définies et/ou <a href="emoji-key">Catégories de Contribution emoji</a>.
+<ul>
+<li>La liste de contributeurs peut être mises sur plusieur lignes (chacune étant techniquement sa propre table) si besoin.</li>
+<li>L'ordre de contributeurs est immatériel pour la spécification. Ordonner les comme vous le souhaitez.</li>
+</ul></li>
+</ul></li>
+<li>Les projets devraient définir les contributeurs comme étant ceux qui contribuent à un projet dans n'importe quelle catégorie de contributions à n'importe quel niveau de contribution. Cette spécification comprend, par définition, toutes les contributions. Dans les cas où les projets s'écartent des catégories de contribution ou exigent un niveau de contribution spécifique pour répondre aux critères en tant que contributeur de projet, le projet devrait fournir une documentation explicite des définitions qui satisfont aux critères de contributeur de projet dans le document CONTRIBUTER ou un document public de premier plan similaire au niveau supérieur du répertoire du projet. Cette spécification recommande être contre l'exclusion d'une personne de la liste des contributeurs en fonction du niveau de contribution perçu. Les projets devraient plutôt utiliser des indicateurs d'effort à l'intérieur d'une liste qui inclut tous les contributeurs au projet, peu importe le niveau d'effort. Si utilisé, ces indicateurs d’effort sont à la discrétion du projet et ne sont pas actuellement spécifiés.</li>
+</ol>
+<blockquote>
+<p><strong>Conseil de pro:</strong> Vous pouvez utiliser <a href="bot/overview">le bot @all-contributors 🤖</a> pour automatiquement reconnaitre des contributeurs à votre projets à source ouverte ✨</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="optionnel"></a><a href="#optionnel" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optionnel</h2>
+<p>Les projets devraient envisager les éléments facultatifs suivants dans le cadre de leur engagement à l'égard de la spécification de All Contributors:</p>
+<ol>
+<li>L'avatar de l'utilisateur peut être inclus et c'est recommandé.</li>
+<li>Un lien facultatif de l'indicateur de la catégorie de contribution jusqu'aux contribution(s) catégories-orientée peut être inclus pour fournir des renseignements supplémentaires sur les contributions du projet, comme il est expliqué dans la section ci-dessous.</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="et-ensuite"></a><a href="#et-ensuite" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Et ensuite</h2>
+<ul>
+<li><a href="emoji-key">Clé de Emoji (Référence de Types de Contribution)</a></li>
+<li><a href="repository-maintainers">Notes pour les mainteneurs du répertoire</a></li>
+<li><a href="tooling">Automatisation du processus à l’aide d’outils</a></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/fr/overview"><span class="arrow-prev">← </span><span>Aperçu</span></a><a class="docs-next button" href="/docs/fr/emoji-key"><span>Clé d&#x27;Emoji ✨</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#obligatoire">Obligatoire</a></li><li><a href="#optionnel">Optionnel</a></li><li><a href="#et-ensuite">Et ensuite</a></li></ul></nav></div><footer class="docs-footer"><a href="/"><img class="docs-footer__logo" src="/img/icons/logo-square-transparent.png" alt="All Contributors"/></a><a class="github-button docs-footer__github-stars" href="https://github.com/all-contributors/all-contributors" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star All Contributors on GitHub">Star All Contributors</a></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'df11e55c8bba69bfec12fca22be89831',
+                indexName: 'all-contributors',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>

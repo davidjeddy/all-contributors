@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Bot用法 · All Contributors</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;blockquote&gt;
+&lt;p&gt;此使用文档假定了你已经遵循了&lt;a href=&quot;installation&quot;&gt;bot installation steps&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+"/><meta name="docsearch:language" content="zh-CN"/><meta property="og:title" content="Bot用法 · All Contributors"/><meta property="og:type" content="website"/><meta property="og:url" content="https://allcontributors.org/index.html"/><meta property="og:description" content="&lt;blockquote&gt;
+&lt;p&gt;此使用文档假定了你已经遵循了&lt;a href=&quot;installation&quot;&gt;bot installation steps&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/icons/favicon-32x32.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-131821931-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/zh-CN"><img class="logo" src="/img/icons/logo-square-transparent.png" alt="All Contributors"/><h2 class="headerTitleWithLogo">All Contributors</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/zh-CN/overview" target="_self">文档</a></li><li class=""><a href="https://github.com/all-contributors/all-contributors" target="_self">GitHub</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg" alt="Languages icon"/>中文</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docs/en/bot/usage">English</a></li><li><a href="/docs/es-ES/bot/usage">Español</a></li><li><a href="/docs/fr/bot/usage">Français</a></li><li><a href="/docs/id/bot/usage">Bahasa Indonesia</a></li><li><a href="/docs/ko/bot/usage">한국어</a></li><li><a href="/docs/pt-BR/bot/usage">Português (Brasil)</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>@all-contributors Bot 🤖</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">规范</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/zh-CN/overview">概览</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/specification">规范</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/emoji-key">Emoji键 ✨</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/repository-maintainers">仓库维护人员</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/tooling">工具</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">@all-contributors Bot 🤖</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/zh-CN/bot/overview">概览</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/bot/installation">安装</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/zh-CN/bot/usage">用法</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/bot/configuration">配置</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">CLI</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/zh-CN/cli/overview">概览</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/cli/installation">安装</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/cli/usage">用法</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/cli/configuration">配置</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">项目</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/zh-CN/project/contribute">帮助我们改进</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/project/code-of-conduct">行为准则</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/project/implementations">如何实现？</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/all-contributors/all-contributors/tree/master/docs/bot/usage.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Bot用法</h1></header><article><div><span><blockquote>
+<p>此使用文档假定了你已经遵循了<a href="installation">bot installation steps</a>。</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="命令"></a><a href="#命令" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>命令</h2>
+<p>&lt;autogenerated_table_of_contents&gt;</p>
+<h3><a class="anchor" aria-hidden="true" id="all-contributors-add"></a><a href="#all-contributors-add" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>@all-contributors add</code></h3>
+<p>在issue的评论或者pull request中，要求@all-contributors添加贡献者。</p>
+<pre><code class="hljs">@all-contributors please add &lt;用户名&gt; for &lt;贡献&gt;
+</code></pre>
+<p><strong>&lt;贡献&gt;</strong>: 查看<a href="../emoji-key">表情符号键 (贡献类型引用)</a>，它列举了一系列有效的<code>贡献</code> 类型。</p>
+<p>接下来，机器人将创建一个添加贡献者的pull request，然后使用pull request的详细信息进行回复。</p>
+<p><img alt="用法截图实例" src="../../assets/bot-usage.png" width="500px" /></p>
+<blockquote>
+<p>你对机器人的要求不需要完美。 机器人将使用<a href="https://github.com/all-contributors/all-contributors-bot/blob/master/src/tasks/processIssueComment/utils/parse-comment/index.js">基本自然语言分析</a>来判断你的意图。 例如，这将适用于：</p>
+<p><code>Jane you are crushing it in documentation and your infrastructure work has been great too. Let's add jane.doe23 for her contributions. cc @all-contributors</code></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="接下来呢"></a><a href="#接下来呢" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>接下来呢？</h2>
+<ul>
+<li><a href="configuration">配置机器人</a></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zh-CN/bot/installation"><span class="arrow-prev">← </span><span>安装</span></a><a class="docs-next button" href="/docs/zh-CN/bot/configuration"><span>配置</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#命令">命令</a><ul class="toc-headings"><li><a href="#all-contributors-add"><code>@all-contributors add</code></a></li></ul></li><li><a href="#接下来呢">接下来呢？</a></li></ul></nav></div><footer class="docs-footer"><a href="/"><img class="docs-footer__logo" src="/img/icons/logo-square-transparent.png" alt="All Contributors"/></a><a class="github-button docs-footer__github-stars" href="https://github.com/all-contributors/all-contributors" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star All Contributors on GitHub">Star All Contributors</a></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'df11e55c8bba69bfec12fca22be89831',
+                indexName: 'all-contributors',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
